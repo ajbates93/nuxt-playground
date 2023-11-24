@@ -7,10 +7,19 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^2.1.0",
+    "@nuxt/content": "latest",
     "@nuxt/devtools": "latest",
+    "@nuxtjs/color-mode": "latest",
+    "@nuxtjs/eslint-module": "latest",
+    "@nuxtjs/tailwindcss": "latest",
+    "@vueuse/nuxt": "latest",
+    "eslint": "^8.54.0",
     "nuxt": "^3.8.2",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"
