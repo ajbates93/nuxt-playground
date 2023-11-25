@@ -5,8 +5,14 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
     "@nuxtjs/tailwindcss",
     "@nuxt/content",
-    "@nuxtjs/color-mode",
     // "@nuxtjs/eslint-module"
+    "@nuxtjs/color-mode",
+    "nuxt-icon"
   ],
-  
+  colorMode: {
+    classSuffix: ''
+  },
+  tailwindcss: {
+
+  }
 })
